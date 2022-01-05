@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        cache: 'yarn'
     - run: curl -sL https://firebase.tools | bash 
     - name: Deploy to Firebase Hosting
       uses: w9jds/firebase-action@master
