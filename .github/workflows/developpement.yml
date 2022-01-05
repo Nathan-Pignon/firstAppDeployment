@@ -2,7 +2,7 @@ name: Developpement jobs
 
 on:
   push:
-    branches: [ developpement ]
+    branches: [ master ]
 
 jobs:
   build:
